@@ -3,14 +3,14 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #FFFFFF;
 }
 
 /* Navbar */
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #F4C2C2;
     padding: 10px;
 }
 .navbar a {
@@ -21,13 +21,13 @@ body {
     transition: background-color 0.3s;
 }
 .navbar a:hover {
-    background-color: #555;
+    background-color: #776e6e;
 }
 
 /* Header & Footer */
 header, footer {
     text-align: center;
-    background-color: #333;
+    background-color: #AA336A;
     color: #fff;
     padding: 15px;
 }
