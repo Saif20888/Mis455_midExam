@@ -1,0 +1,102 @@
+/* Import Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Header & Footer */
+header, footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+/* Homepage */
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.intro {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+.featured {
+    display: flex;
+    gap: 10px;
+}
+.featured img {
+    width: 200px;
+    height: auto;
+}
+
+/* Product Page */
+.product-page {
+    text-align: center;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+.product-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contact Page */
+.contact-page {
+    text-align: center;
+    padding: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+form label, form input, form textarea, form button {
+    margin: 5px 0;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+}
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #555;
+}
