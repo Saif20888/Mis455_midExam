@@ -29,7 +29,7 @@ header, footer {
     text-align: center;
     background-color: #AA336A;
     color: #fff;
-    padding: 15px;
+    padding: 12px;
 }
 
 /* Homepage */
@@ -58,7 +58,7 @@ header, footer {
 }
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
 }
@@ -69,9 +69,18 @@ header, footer {
 }
 .product-item img {
     width: 100%;
-    height: auto;
+    height: 70%;
+}
+/* Product Page Hover Effect */
+.product-item img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.product-item img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image */
+    box-shadow: 0 4px 8px rgba(32, 20, 20, 0.2); /* Add a shadow effect */
+}
+   
 /* Contact Page */
 .contact-page {
     text-align: center;
